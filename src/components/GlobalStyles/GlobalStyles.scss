@@ -4,9 +4,15 @@
 :root {
     --primary: #fe2c55;
     // màu chủ đạo
+    //default -LAYOUT
+    --default-layout-header-height:60px;
+    --default-layout-width:1150px;
+
 }
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html {
     font-size: 62.5%;
