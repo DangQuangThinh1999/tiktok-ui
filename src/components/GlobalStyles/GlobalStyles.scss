@@ -3,8 +3,11 @@
 
 :root {
     --primary: #fe2c55;
+    // màu chủ đạo
 }
-
+* {
+    box-sizing: border-box;
+}
 html {
     font-size: 62.5%;
 }
@@ -12,6 +15,8 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
+    // kích thước chữ ban đầu của trình duyệt
     line-height: 1.5;
     text-rendering: optimizespeed;
+    // text-rendering: optimizespeed: tăng tốc độ tải font chữ
 }
